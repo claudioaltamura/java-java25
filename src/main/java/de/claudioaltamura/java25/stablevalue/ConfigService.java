@@ -1,19 +1,16 @@
-package de.claudioaltamura;
+package de.claudioaltamura.java25.stablevalue;
 
 public class ConfigService {
 
     // Create a StableValue container for caching configuration
     private final StableValue<AppConfig> config = StableValue.of();
 
-    public AppConfig getConfig() {
-        // Initialize lazily on first access
-        return config.orElseSet(this::loadConfig);
+    public ConfigService(AppConfig appConfig) {
+        this.config.setOrThrow(appConfig);
     }
 
-    private AppConfig loadConfig() {
-        System.out.println("Loading configuration from file...");
-        // Simulate reading configuration data
-        return new AppConfig("prod", 20, true);
+    public AppConfig getConfig() {
+        return config.orElseThrow();
     }
 
     public void printConfig() {
