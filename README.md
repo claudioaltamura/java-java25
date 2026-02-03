@@ -3,3 +3,4 @@ Java 25 features examples
 
 - StableValue
 - ScopedValue
+- instance main method
