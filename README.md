@@ -1,6 +1,7 @@
 # java-java25
 Java 25 features examples
 
-- StableValue
+- StableValue (Preview)
 - ScopedValue
 - instance main method
+- module import declarations
