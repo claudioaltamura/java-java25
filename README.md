@@ -1,3 +1,7 @@
+![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/claudioaltamura/java-java256/maven-build.yml?branch=main)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # java-java25
 Java 25 features examples
 
@@ -5,3 +9,4 @@ Java 25 features examples
 - ScopedValue
 - instance main method
 - module import declarations
+- flexible constructor bodies
