@@ -9,3 +9,4 @@ Java 25 features examples
 - instance main method
 - module import declarations
 - flexible constructor bodies
+- markdown documentation
