@@ -18,7 +18,7 @@ class CharReplacerTest {
     void replace() {
         CharReplacer charReplacer = new CharReplacer();
         String result = charReplacer.replace("Hello World!", "o", "0");
-        assertEquals("Hellx Wxrld!", result);
+        assertEquals("Hell0 W0rld!", result);
     }
 
 }
