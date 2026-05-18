@@ -10,3 +10,4 @@ Java 25 features examples
 - module import declarations
 - flexible constructor bodies
 - markdown documentation
+- unnamed variables
